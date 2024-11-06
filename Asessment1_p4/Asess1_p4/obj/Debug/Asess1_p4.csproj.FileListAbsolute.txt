@@ -1,0 +1,7 @@
+C:\dotnet\Asess1_p4\Asess1_p4\bin\Debug\Asess1_p4.exe.config
+C:\dotnet\Asess1_p4\Asess1_p4\bin\Debug\Asess1_p4.exe
+C:\dotnet\Asess1_p4\Asess1_p4\bin\Debug\Asess1_p4.pdb
+C:\dotnet\Asess1_p4\Asess1_p4\obj\Debug\Asess1_p4.csproj.AssemblyReference.cache
+C:\dotnet\Asess1_p4\Asess1_p4\obj\Debug\Asess1_p4.csproj.CoreCompileInputs.cache
+C:\dotnet\Asess1_p4\Asess1_p4\obj\Debug\Asess1_p4.exe
+C:\dotnet\Asess1_p4\Asess1_p4\obj\Debug\Asess1_p4.pdb

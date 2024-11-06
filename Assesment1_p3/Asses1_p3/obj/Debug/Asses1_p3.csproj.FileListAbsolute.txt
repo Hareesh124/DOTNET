@@ -1,0 +1,7 @@
+C:\dotnet\Asses1_p3\Asses1_p3\bin\Debug\Asses1_p3.exe.config
+C:\dotnet\Asses1_p3\Asses1_p3\bin\Debug\Asses1_p3.exe
+C:\dotnet\Asses1_p3\Asses1_p3\bin\Debug\Asses1_p3.pdb
+C:\dotnet\Asses1_p3\Asses1_p3\obj\Debug\Asses1_p3.csproj.AssemblyReference.cache
+C:\dotnet\Asses1_p3\Asses1_p3\obj\Debug\Asses1_p3.csproj.CoreCompileInputs.cache
+C:\dotnet\Asses1_p3\Asses1_p3\obj\Debug\Asses1_p3.exe
+C:\dotnet\Asses1_p3\Asses1_p3\obj\Debug\Asses1_p3.pdb

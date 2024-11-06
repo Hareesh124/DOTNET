@@ -1,0 +1,7 @@
+C:\dotnet\Assignment3_Strings\Assignment3_Strings\bin\Debug\Assignment3_Strings.exe.config
+C:\dotnet\Assignment3_Strings\Assignment3_Strings\bin\Debug\Assignment3_Strings.exe
+C:\dotnet\Assignment3_Strings\Assignment3_Strings\bin\Debug\Assignment3_Strings.pdb
+C:\dotnet\Assignment3_Strings\Assignment3_Strings\obj\Debug\Assignment3_Strings.csproj.AssemblyReference.cache
+C:\dotnet\Assignment3_Strings\Assignment3_Strings\obj\Debug\Assignment3_Strings.csproj.CoreCompileInputs.cache
+C:\dotnet\Assignment3_Strings\Assignment3_Strings\obj\Debug\Assignment3_Strings.exe
+C:\dotnet\Assignment3_Strings\Assignment3_Strings\obj\Debug\Assignment3_Strings.pdb

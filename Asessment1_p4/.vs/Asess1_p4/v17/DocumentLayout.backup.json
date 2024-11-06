@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dotnet\\Asess1_p4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B3442-7458-4BC9-9E00-C8A98BDE532F}|Asess1_p4\\Asess1_p4.csproj|c:\\dotnet\\asess1_p4\\asess1_p4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32B3442-7458-4BC9-9E00-C8A98BDE532F}|Asess1_p4\\Asess1_p4.csproj|solutionrelative:asess1_p4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dotnet\\Asess1_p4\\Asess1_p4\\Program.cs",
+              "RelativeDocumentMoniker": "Asess1_p4\\Program.cs",
+              "ToolTip": "C:\\dotnet\\Asess1_p4\\Asess1_p4\\Program.cs",
+              "RelativeToolTip": "Asess1_p4\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T05:48:43.953Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
