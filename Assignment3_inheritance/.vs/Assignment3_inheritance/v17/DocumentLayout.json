@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hareesha\\source\\repos\\Assignment3_inheritance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5EEF1-DC05-40A2-849B-66D09660AD6E}|Assignment3_inheritance\\Assignment3_inheritance.csproj|c:\\users\\hareesha\\source\\repos\\assignment3_inheritance\\assignment3_inheritance\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5EEF1-DC05-40A2-849B-66D09660AD6E}|Assignment3_inheritance\\Assignment3_inheritance.csproj|solutionrelative:assignment3_inheritance\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5EEF1-DC05-40A2-849B-66D09660AD6E}|Assignment3_inheritance\\Assignment3_inheritance.csproj|c:\\users\\hareesha\\source\\repos\\assignment3_inheritance\\assignment3_inheritance\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5EEF1-DC05-40A2-849B-66D09660AD6E}|Assignment3_inheritance\\Assignment3_inheritance.csproj|solutionrelative:assignment3_inheritance\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E5EEF1-DC05-40A2-849B-66D09660AD6E}|Assignment3_inheritance\\Assignment3_inheritance.csproj|c:\\users\\hareesha\\source\\repos\\assignment3_inheritance\\assignment3_inheritance\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E5EEF1-DC05-40A2-849B-66D09660AD6E}|Assignment3_inheritance\\Assignment3_inheritance.csproj|solutionrelative:assignment3_inheritance\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaleDetails.cs",
+              "DocumentMoniker": "C:\\Users\\hareesha\\source\\repos\\Assignment3_inheritance\\Assignment3_inheritance\\SaleDetails.cs",
+              "RelativeDocumentMoniker": "Assignment3_inheritance\\SaleDetails.cs",
+              "ToolTip": "C:\\Users\\hareesha\\source\\repos\\Assignment3_inheritance\\Assignment3_inheritance\\SaleDetails.cs",
+              "RelativeToolTip": "Assignment3_inheritance\\SaleDetails.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:51:12.183Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\hareesha\\source\\repos\\Assignment3_inheritance\\Assignment3_inheritance\\Students.cs",
+              "RelativeDocumentMoniker": "Assignment3_inheritance\\Students.cs",
+              "ToolTip": "C:\\Users\\hareesha\\source\\repos\\Assignment3_inheritance\\Assignment3_inheritance\\Students.cs",
+              "RelativeToolTip": "Assignment3_inheritance\\Students.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAkwGIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:46:54.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "C:\\Users\\hareesha\\source\\repos\\Assignment3_inheritance\\Assignment3_inheritance\\Accounts.cs",
+              "RelativeDocumentMoniker": "Assignment3_inheritance\\Accounts.cs",
+              "ToolTip": "C:\\Users\\hareesha\\source\\repos\\Assignment3_inheritance\\Assignment3_inheritance\\Accounts.cs",
+              "RelativeToolTip": "Assignment3_inheritance\\Accounts.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswF0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:45:47.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
