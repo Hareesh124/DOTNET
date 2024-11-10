@@ -1,0 +1,7 @@
+C:\dotnet\Hands_on\Hands_on\bin\Debug\Hands_on.exe.config
+C:\dotnet\Hands_on\Hands_on\bin\Debug\Hands_on.exe
+C:\dotnet\Hands_on\Hands_on\bin\Debug\Hands_on.pdb
+C:\dotnet\Hands_on\Hands_on\obj\Debug\Hands_on.csproj.AssemblyReference.cache
+C:\dotnet\Hands_on\Hands_on\obj\Debug\Hands_on.csproj.CoreCompileInputs.cache
+C:\dotnet\Hands_on\Hands_on\obj\Debug\Hands_on.exe
+C:\dotnet\Hands_on\Hands_on\obj\Debug\Hands_on.pdb

@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|c:\\users\\hareesha\\source\\repos\\assignment4\\assignment4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|c:\\users\\hareesha\\source\\repos\\assignment4\\assignment4\\employeeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\employeeclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|c:\\users\\hareesha\\source\\repos\\assignment4\\assignment4\\doctorbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\doctorbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|c:\\users\\hareesha\\source\\repos\\assignment4\\assignment4\\scholarship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\scholarship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|c:\\users\\hareesha\\source\\repos\\assignment4\\assignment4\\banking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A03F8C3-5310-4F60-BDCB-0352460902BF}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\banking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\Student.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Student.cs",
+              "ToolTip": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\Student.cs",
+              "RelativeToolTip": "Assignment4\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:51:27.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeClass.cs",
+              "DocumentMoniker": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\EmployeeClass.cs",
+              "RelativeDocumentMoniker": "Assignment4\\EmployeeClass.cs",
+              "ToolTip": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\EmployeeClass.cs",
+              "RelativeToolTip": "Assignment4\\EmployeeClass.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwC4AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:47:30.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoctorBook.cs",
+              "DocumentMoniker": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\DoctorBook.cs",
+              "RelativeDocumentMoniker": "Assignment4\\DoctorBook.cs",
+              "ToolTip": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\DoctorBook.cs",
+              "RelativeToolTip": "Assignment4\\DoctorBook.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwDIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:39:05.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Scholarship.cs",
+              "DocumentMoniker": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\Scholarship.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Scholarship.cs",
+              "ToolTip": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\Scholarship.cs",
+              "RelativeToolTip": "Assignment4\\Scholarship.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:31:23.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Banking.cs",
+              "DocumentMoniker": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\Banking.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Banking.cs",
+              "ToolTip": "C:\\Users\\hareesha\\source\\repos\\Assignment4\\Assignment4\\Banking.cs",
+              "RelativeToolTip": "Assignment4\\Banking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:25:03.975Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

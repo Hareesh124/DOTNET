@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dotnet\\Hands_on\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8637CCDE-64F2-4F74-A43F-7401FB5B79D9}|Hands_on\\Hands_on.csproj|c:\\dotnet\\hands_on\\hands_on\\icomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8637CCDE-64F2-4F74-A43F-7401FB5B79D9}|Hands_on\\Hands_on.csproj|solutionrelative:hands_on\\icomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Hands_on||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8637CCDE-64F2-4F74-A43F-7401FB5B79D9}|Hands_on\\Hands_on.csproj|c:\\dotnet\\hands_on\\hands_on\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8637CCDE-64F2-4F74-A43F-7401FB5B79D9}|Hands_on\\Hands_on.csproj|solutionrelative:hands_on\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8637CCDE-64F2-4F74-A43F-7401FB5B79D9}|Hands_on\\Hands_on.csproj|c:\\dotnet\\hands_on\\hands_on\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hands_on",
+              "DocumentMoniker": "C:\\dotnet\\Hands_on\\Hands_on\\Hands_on.csproj",
+              "RelativeDocumentMoniker": "Hands_on\\Hands_on.csproj",
+              "ToolTip": "C:\\dotnet\\Hands_on\\Hands_on\\Hands_on.csproj",
+              "RelativeToolTip": "Hands_on\\Hands_on.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T11:52:08.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Icomp.cs",
+              "DocumentMoniker": "C:\\dotnet\\Hands_on\\Hands_on\\Icomp.cs",
+              "RelativeDocumentMoniker": "Hands_on\\Icomp.cs",
+              "ToolTip": "C:\\dotnet\\Hands_on\\Hands_on\\Icomp.cs",
+              "RelativeToolTip": "Hands_on\\Icomp.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:51:44.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dotnet\\Hands_on\\Hands_on\\Program.cs",
+              "RelativeDocumentMoniker": "Hands_on\\Program.cs",
+              "ToolTip": "C:\\dotnet\\Hands_on\\Hands_on\\Program.cs",
+              "RelativeToolTip": "Hands_on\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA8wCAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T06:42:30.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
