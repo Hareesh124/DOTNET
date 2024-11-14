@@ -1,0 +1,7 @@
+C:\Training\dotnet\Assignment5\Assignment5\obj\Debug\Assignment5.csproj.AssemblyReference.cache
+C:\Training\dotnet\Assignment5\Assignment5\obj\Debug\Assignment5.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Assignment5\Assignment5\bin\Debug\Assignment5.exe.config
+C:\Training\dotnet\Assignment5\Assignment5\bin\Debug\Assignment5.exe
+C:\Training\dotnet\Assignment5\Assignment5\bin\Debug\Assignment5.pdb
+C:\Training\dotnet\Assignment5\Assignment5\obj\Debug\Assignment5.exe
+C:\Training\dotnet\Assignment5\Assignment5\obj\Debug\Assignment5.pdb
