@@ -1,0 +1,7 @@
+C:\Training\dotnet\Practice\FactoryPdf\FactoryPdf\bin\Debug\FactoryPdf.exe.config
+C:\Training\dotnet\Practice\FactoryPdf\FactoryPdf\bin\Debug\FactoryPdf.exe
+C:\Training\dotnet\Practice\FactoryPdf\FactoryPdf\bin\Debug\FactoryPdf.pdb
+C:\Training\dotnet\Practice\FactoryPdf\FactoryPdf\obj\Debug\DocConSystem.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\FactoryPdf\FactoryPdf\obj\Debug\DocConSystem.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\FactoryPdf\FactoryPdf\obj\Debug\FactoryPdf.exe
+C:\Training\dotnet\Practice\FactoryPdf\FactoryPdf\obj\Debug\FactoryPdf.pdb

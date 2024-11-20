@@ -1,0 +1,7 @@
+C:\Training\dotnet\Practice\TestRev\TestRev\bin\Debug\TestRev.exe.config
+C:\Training\dotnet\Practice\TestRev\TestRev\bin\Debug\TestRev.exe
+C:\Training\dotnet\Practice\TestRev\TestRev\bin\Debug\TestRev.pdb
+C:\Training\dotnet\Practice\TestRev\TestRev\obj\Debug\TestRev.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\TestRev\TestRev\obj\Debug\TestRev.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\TestRev\TestRev\obj\Debug\TestRev.exe
+C:\Training\dotnet\Practice\TestRev\TestRev\obj\Debug\TestRev.pdb

@@ -1,0 +1,7 @@
+C:\Training\dotnet\Practice\ObjectPooling\ObjectPooling\obj\Debug\ObjectPooling.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\ObjectPooling\ObjectPooling\obj\Debug\ObjectPooling.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\ObjectPooling\ObjectPooling\bin\Debug\ObjectPooling.exe.config
+C:\Training\dotnet\Practice\ObjectPooling\ObjectPooling\bin\Debug\ObjectPooling.exe
+C:\Training\dotnet\Practice\ObjectPooling\ObjectPooling\bin\Debug\ObjectPooling.pdb
+C:\Training\dotnet\Practice\ObjectPooling\ObjectPooling\obj\Debug\ObjectPooling.exe
+C:\Training\dotnet\Practice\ObjectPooling\ObjectPooling\obj\Debug\ObjectPooling.pdb

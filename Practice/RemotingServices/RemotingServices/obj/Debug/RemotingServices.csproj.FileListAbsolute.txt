@@ -1,0 +1,7 @@
+C:\Training\dotnet\Practice\RemotingServices\RemotingServices\obj\Debug\RemotingServices.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\RemotingServices\RemotingServices\obj\Debug\RemotingServices.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\RemotingServices\RemotingServices\bin\Debug\RemotingServices.dll.config
+C:\Training\dotnet\Practice\RemotingServices\RemotingServices\bin\Debug\RemotingServices.dll
+C:\Training\dotnet\Practice\RemotingServices\RemotingServices\bin\Debug\RemotingServices.pdb
+C:\Training\dotnet\Practice\RemotingServices\RemotingServices\obj\Debug\RemotingServices.dll
+C:\Training\dotnet\Practice\RemotingServices\RemotingServices\obj\Debug\RemotingServices.pdb

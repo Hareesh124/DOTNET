@@ -1,0 +1,7 @@
+C:\Training\dotnet\Practice\Furniture\Furniture\obj\Debug\Furniture.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\Furniture\Furniture\obj\Debug\Furniture.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\Furniture\Furniture\bin\Debug\Furniture.exe.config
+C:\Training\dotnet\Practice\Furniture\Furniture\bin\Debug\Furniture.exe
+C:\Training\dotnet\Practice\Furniture\Furniture\bin\Debug\Furniture.pdb
+C:\Training\dotnet\Practice\Furniture\Furniture\obj\Debug\Furniture.exe
+C:\Training\dotnet\Practice\Furniture\Furniture\obj\Debug\Furniture.pdb

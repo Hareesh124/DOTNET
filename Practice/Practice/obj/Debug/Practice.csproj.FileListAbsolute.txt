@@ -5,3 +5,10 @@ C:\dotnet\Practice\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
 C:\dotnet\Practice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
 C:\dotnet\Practice\Practice\obj\Debug\Practice.exe
 C:\dotnet\Practice\Practice\obj\Debug\Practice.pdb
+C:\Training\dotnet\Practice\Practice\bin\Debug\Practice.exe.config
+C:\Training\dotnet\Practice\Practice\bin\Debug\Practice.exe
+C:\Training\dotnet\Practice\Practice\bin\Debug\Practice.pdb
+C:\Training\dotnet\Practice\Practice\obj\Debug\Practice.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\Practice\obj\Debug\Practice.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\Practice\obj\Debug\Practice.exe
+C:\Training\dotnet\Practice\Practice\obj\Debug\Practice.pdb
