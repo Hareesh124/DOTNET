@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Assesment3.DelegateCalc</StartupObject>
+    <StartupObject>Assesment3.FileWrite</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
