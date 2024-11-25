@@ -1,0 +1,73 @@
+1)
+
+CREATE TABLE Numbers (
+    Number INT
+);
+
+INSERT INTO Numbers (Number) VALUES (7), (2), (30);
+
+
+SELECT 
+    Word
+FROM 
+    Words
+WHERE 
+    Word LIKE 'a%m';
+
+2)
+
+CREATE TABLE Words (
+    Word VARCHAR(100)
+);
+
+INSERT INTO Words (Word) VALUES ('mum'), ('amsterdam'), ('bloom');
+
+SELECT 
+    Word
+FROM 
+    Words
+WHERE 
+    Word LIKE 'a%m';
+
+3)
+
+CREATE TABLE Employees (
+    EmpId INT PRIMARY KEY,
+    EmpName VARCHAR(100),
+    EmpCity VARCHAR(100),
+    EmpSalary DECIMAL(10, 2)
+);
+
+INSERT INTO Employees (EmpId, EmpName, EmpCity, EmpSalary) VALUES
+(1, 'Hareesh', 'Bangalore', 50000),
+(2, 'Dhoni', 'Mumbai', 45000),
+(3, 'Ashwin', 'Bangalore', 55000),
+(4, 'Conway', 'Chennai', 40000);
+
+
+a. Display all employees' data
+
+SELECT * FROM Employees;
+
+
+b. Display all employees' data whose salary is greater than 45000
+
+SELECT * 
+FROM Employees
+WHERE EmpSalary > 45000;
+
+
+c. Display all employees data who belong to Bangalore Region
+
+SELECT * 
+FROM Employees
+WHERE EmpCity = 'Bangalore';
+
+
+d. Display all employees' data sorted by their names in ascending order
+
+SELECT * 
+FROM Employees
+ORDER BY EmpName ASC;
+
+
