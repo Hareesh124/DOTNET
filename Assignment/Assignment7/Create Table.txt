@@ -1,0 +1,51 @@
+-- Clients Table
+CREATE TABLE Clients (
+    Client_ID NUMBER(4) PRIMARY KEY,
+    Cname VARCHAR2(40) NOT NULL,
+    Address VARCHAR2(30),
+    Email VARCHAR2(30) UNIQUE,
+    Phone NUMBER(10),
+    Business VARCHAR2(20) NOT NULL
+);
+
+-- Employees Table
+CREATE TABLE Employees (
+    Empno NUMBER(4) PRIMARY KEY,
+    Ename VARCHAR2(20) NOT NULL,
+    Job VARCHAR2(15),
+    Salary NUMBER(7) CHECK (Salary > 0),
+    Deptno NUMBER(2),
+    CONSTRAINT FK_Emp_Dept FOREIGN KEY (Deptno) REFERENCES Departments (Deptno)
+);
+
+-- Departments Table
+CREATE TABLE Departments (
+    Deptno NUMBER(2) PRIMARY KEY,
+    Dname VARCHAR2(15) NOT NULL,
+    Loc VARCHAR2(20)
+);
+
+-- Projects Table
+CREATE TABLE Projects (
+    Project_ID NUMBER(3) PRIMARY KEY,
+    Descr VARCHAR2(30) NOT NULL,
+    Start_Date DATE,
+    Planned_End_Date DATE,
+    Actual_End_Date DATE CHECK (Actual_End_Date >= Planned_End_Date),
+    Budget NUMBER(10) CHECK (Budget > 0),
+    Client_ID NUMBER(4),
+    CONSTRAINT FK_Proj_Client FOREIGN KEY (Client_ID) REFERENCES Clients (Client_ID)
+);
+
+-- EmpProjectTasks Table
+CREATE TABLE EmpProjectTasks (
+    Project_ID NUMBER(3),
+    Empno NUMBER(4),
+    Start_Date DATE,
+    End_Date DATE,
+    Task VARCHAR2(25) NOT NULL,
+    Status VARCHAR2(15) NOT NULL,
+    PRIMARY KEY (Project_ID, Empno),
+    CONSTRAINT FK_Task_Proj FOREIGN KEY (Project_ID) REFERENCES Projects (Project_ID),
+    CONSTRAINT FK_Task_Emp FOREIGN KEY (Empno) REFERENCES Employees (Empno)
+);

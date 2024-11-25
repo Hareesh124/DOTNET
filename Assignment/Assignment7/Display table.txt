@@ -1,0 +1,5 @@
+SELECT * FROM Clients;
+SELECT * FROM Departments;
+SELECT * FROM Employees;
+SELECT * FROM Projects;
+SELECT * FROM EmpProjectTasks;

@@ -1,0 +1,44 @@
+-- Inserting into Clients
+INSERT INTO Clients VALUES (1001, 'ACME Utilities', 'Noida', 'contact@acmeutil.com', 9567880032, 'Manufacturing');
+INSERT INTO Clients VALUES (1002, 'Trackon Consultants', 'Mumbai', 'consult@trackon.com', 8734210090, 'Consultant');
+INSERT INTO Clients VALUES (1003, 'MoneySaver Distributors', 'Kolkata', 'save@moneysaver.com', 7799886655, 'Reseller');
+INSERT INTO Clients VALUES (1004, 'Lawful Corp', 'Chennai', 'justice@lawful.com', 9210342219, 'Professional');
+
+-- Inserting into Departments
+INSERT INTO Departments VALUES (10, 'Design', 'Pune');
+INSERT INTO Departments VALUES (20, 'Development', 'Pune');
+INSERT INTO Departments VALUES (30, 'Testing', 'Mumbai');
+INSERT INTO Departments VALUES (40, 'Document', 'Mumbai');
+
+-- Inserting into Employees
+INSERT INTO Employees VALUES (7001, 'Sandeep', 'Analyst', 25000, 10);
+INSERT INTO Employees VALUES (7002, 'Rajesh', 'Designer', 30000, 10);
+INSERT INTO Employees VALUES (7003, 'Madhav', 'Developer', 40000, 20);
+INSERT INTO Employees VALUES (7004, 'Manoj', 'Developer', 40000, 20);
+INSERT INTO Employees VALUES (7005, 'Abhay', 'Designer', 35000, 10);
+INSERT INTO Employees VALUES (7006, 'Uma', 'Tester', 30000, 30);
+INSERT INTO Employees VALUES (7007, 'Gita', 'Tech. Writer', 30000, 40);
+INSERT INTO Employees VALUES (7008, 'Priya', 'Tester', 35000, 30);
+INSERT INTO Employees VALUES (7009, 'Nutan', 'Developer', 45000, 20);
+INSERT INTO Employees VALUES (7010, 'Smita', 'Analyst', 20000, 10);
+INSERT INTO Employees VALUES (7011, 'Anand', 'Project Mgr', 65000, 10);
+
+-- Inserting into Projects
+INSERT INTO Projects VALUES (401, 'Inventory', TO_DATE('01-APR-2011', 'DD-MON-YYYY'), TO_DATE('01-OCT-2011', 'DD-MON-YYYY'), TO_DATE('31-OCT-2011', 'DD-MON-YYYY'), 150000, 1001);
+INSERT INTO Projects VALUES (402, 'Accounting', TO_DATE('01-AUG-2011', 'DD-MON-YYYY'), TO_DATE('01-JAN-2012', 'DD-MON-YYYY'), NULL, 500000, 1002);
+INSERT INTO Projects VALUES (403, 'Payroll', TO_DATE('01-OCT-2011', 'DD-MON-YYYY'), TO_DATE('31-DEC-2011', 'DD-MON-YYYY'), NULL, 75000, 1003);
+INSERT INTO Projects VALUES (404, 'Contact Mgmt', TO_DATE('01-NOV-2011', 'DD-MON-YYYY'), TO_DATE('31-DEC-2011', 'DD-MON-YYYY'), NULL, 50000, 1004);
+
+-- Inserting into EmpProjectTasks
+INSERT INTO EmpProjectTasks VALUES (401, 7001, TO_DATE('01-APR-2011', 'DD-MON-YYYY'), TO_DATE('20-APR-2011', 'DD-MON-YYYY'), 'System Analysis', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (401, 7002, TO_DATE('21-APR-2011', 'DD-MON-YYYY'), TO_DATE('30-MAY-2011', 'DD-MON-YYYY'), 'System Design', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (401, 7003, TO_DATE('01-JUN-2011', 'DD-MON-YYYY'), TO_DATE('15-JUL-2011', 'DD-MON-YYYY'), 'Coding', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (401, 7004, TO_DATE('18-JUL-2011', 'DD-MON-YYYY'), TO_DATE('01-SEP-2011', 'DD-MON-YYYY'), 'Coding', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (401, 7006, TO_DATE('03-SEP-2011', 'DD-MON-YYYY'), TO_DATE('15-SEP-2011', 'DD-MON-YYYY'), 'Testing', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (401, 7009, TO_DATE('18-SEP-2011', 'DD-MON-YYYY'), TO_DATE('05-OCT-2011', 'DD-MON-YYYY'), 'Code Change', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (401, 7008, TO_DATE('06-OCT-2011', 'DD-MON-YYYY'), TO_DATE('16-OCT-2011', 'DD-MON-YYYY'), 'Testing', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (401, 7007, TO_DATE('06-OCT-2011', 'DD-MON-YYYY'), TO_DATE('22-OCT-2011', 'DD-MON-YYYY'), 'Documentation', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (401, 7011, TO_DATE('22-OCT-2011', 'DD-MON-YYYY'), TO_DATE('31-OCT-2011', 'DD-MON-YYYY'), 'Sign off', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (402, 7010, TO_DATE('01-AUG-2011', 'DD-MON-YYYY'), TO_DATE('20-AUG-2011', 'DD-MON-YYYY'), 'System Analysis', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (402, 7002, TO_DATE('22-AUG-2011', 'DD-MON-YYYY'), TO_DATE('30-SEP-2011', 'DD-MON-YYYY'), 'System Design', 'Completed');
+INSERT INTO EmpProjectTasks VALUES (402, 7004, TO_DATE('01-OCT-2011', 'DD-MON-YYYY'), NULL, 'Coding', 'In Progress');
