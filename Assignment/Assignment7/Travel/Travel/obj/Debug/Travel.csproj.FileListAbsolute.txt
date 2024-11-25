@@ -1,7 +1,0 @@
-C:\Training\dotnet\Assignment\Assignment 7\Travel\Travel\bin\Debug\Travel.exe.config
-C:\Training\dotnet\Assignment\Assignment 7\Travel\Travel\bin\Debug\Travel.exe
-C:\Training\dotnet\Assignment\Assignment 7\Travel\Travel\bin\Debug\Travel.pdb
-C:\Training\dotnet\Assignment\Assignment 7\Travel\Travel\obj\Debug\Travel.csproj.AssemblyReference.cache
-C:\Training\dotnet\Assignment\Assignment 7\Travel\Travel\obj\Debug\Travel.csproj.CoreCompileInputs.cache
-C:\Training\dotnet\Assignment\Assignment 7\Travel\Travel\obj\Debug\Travel.exe
-C:\Training\dotnet\Assignment\Assignment 7\Travel\Travel\obj\Debug\Travel.pdb
