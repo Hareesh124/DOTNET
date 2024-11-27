@@ -1,0 +1,7 @@
+C:\Training\dotnet\Assesment\Assesment 4\Assesment 4\bin\Debug\Assesment 4.exe.config
+C:\Training\dotnet\Assesment\Assesment 4\Assesment 4\bin\Debug\Assesment 4.exe
+C:\Training\dotnet\Assesment\Assesment 4\Assesment 4\bin\Debug\Assesment 4.pdb
+C:\Training\dotnet\Assesment\Assesment 4\Assesment 4\obj\Debug\Assesment 4.csproj.AssemblyReference.cache
+C:\Training\dotnet\Assesment\Assesment 4\Assesment 4\obj\Debug\Assesment 4.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Assesment\Assesment 4\Assesment 4\obj\Debug\Assesment 4.exe
+C:\Training\dotnet\Assesment\Assesment 4\Assesment 4\obj\Debug\Assesment 4.pdb

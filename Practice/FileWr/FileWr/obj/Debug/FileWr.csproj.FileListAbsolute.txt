@@ -1,0 +1,7 @@
+C:\Training\dotnet\Practice\FileWr\FileWr\obj\Debug\FileWr.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\FileWr\FileWr\obj\Debug\FileWr.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\FileWr\FileWr\bin\Debug\FileWr.exe.config
+C:\Training\dotnet\Practice\FileWr\FileWr\bin\Debug\FileWr.exe
+C:\Training\dotnet\Practice\FileWr\FileWr\bin\Debug\FileWr.pdb
+C:\Training\dotnet\Practice\FileWr\FileWr\obj\Debug\FileWr.exe
+C:\Training\dotnet\Practice\FileWr\FileWr\obj\Debug\FileWr.pdb

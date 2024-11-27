@@ -1,1 +1,6 @@
 test git
+
+using (StreamWriter writer = new StreamWriter(fileName, false))
+        {
+            writer.WriteLine(inputText);
+        }
