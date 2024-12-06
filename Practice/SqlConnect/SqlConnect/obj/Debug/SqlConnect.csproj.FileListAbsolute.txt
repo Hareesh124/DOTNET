@@ -1,0 +1,7 @@
+C:\Training\dotnet\Practice\SqlConnect\SqlConnect\bin\Debug\SqlConnect.exe.config
+C:\Training\dotnet\Practice\SqlConnect\SqlConnect\bin\Debug\SqlConnect.exe
+C:\Training\dotnet\Practice\SqlConnect\SqlConnect\bin\Debug\SqlConnect.pdb
+C:\Training\dotnet\Practice\SqlConnect\SqlConnect\obj\Debug\SqlConnect.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\SqlConnect\SqlConnect\obj\Debug\SqlConnect.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\SqlConnect\SqlConnect\obj\Debug\SqlConnect.exe
+C:\Training\dotnet\Practice\SqlConnect\SqlConnect\obj\Debug\SqlConnect.pdb
