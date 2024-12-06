@@ -10,11 +10,17 @@ namespace DisconnectedADO
 {
     class Program
     {
+        
+
+
         public static SqlConnection con = null;
         public static SqlDataAdapter da = null;
         static void Main(string[] args)
         {
+            
             Disconnected_approach();
+            AddRegion_with_Adapter();
+            UpdateRegion();
             Console.Read();
         }
         public static void Disconnected_approach()
@@ -75,7 +81,7 @@ namespace DisconnectedADO
         {
             try
             {
-                con = new SqlConnection("Data Source=Laptop-tjj7d977;database=northwind;trusted_connection=true;");
+                con = new SqlConnection("Data Source = ICS-LT-GSRQ4D3;database = northwind;trusted_connection=true;");
                 con.Open();
                 da = new SqlDataAdapter("select * from region", con);
                 DataSet ds = new DataSet();
@@ -120,7 +126,7 @@ namespace DisconnectedADO
                     {
                         Console.Write(drow[dcol]);
                         Console.WriteLine();
-                    }
+                    }                                                         
                 }
             }
             catch (SqlException se)
@@ -130,5 +136,38 @@ namespace DisconnectedADO
             }
 
         }
+
+
+        public static void UpdateRegion()
+        {
+            con = new SqlConnection("Data Source = ICS-LT-GSRQ4D3;database = northwind;trusted_connection=true;");
+            con.Open();
+            string query = "select * from region";
+            da = new SqlDataAdapter(query, con);
+            DataSet ds = new DataSet();
+            da.Fill(ds,"Region");
+
+            //update a row
+            DataTable dt = ds.Tables["Region"];
+            dt.Rows[7]["RegionDescription"] = "Free Region";
+            SqlCommandBuilder scb = new SqlCommandBuilder(da);
+            da.UpdateCommand = scb.GetUpdateCommand();
+
+            da.Update(ds, "Region");
+            Console.WriteLine("-----------------Post updation-----------");
+            da.Fill(ds);
+            dt = ds.Tables["Region"];
+
+            foreach (DataRow drow in dt.Rows)
+            {
+                foreach (DataColumn dcol in dt.Columns)
+                {
+                    Console.Write(drow[dcol]);
+                    Console.WriteLine();
+                }
+            }
+
+        }
+
     }
 }

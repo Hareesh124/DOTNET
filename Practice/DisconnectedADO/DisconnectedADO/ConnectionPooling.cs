@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Diagnostics;
+using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
+using System.Transactions;
+
+namespace DisconnectedADO
+{
+    class ConnectionPooling
+    {
+        public static string connectstr = "Data Source = ICS-LT-GSRQ4D3;database = northwind;trusted_connection=true;Pooling=true";
+
+        static void Main(string[] args)
+        {
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+            for (int i = 0; i < 1000; i++)
+            {
+                SqlConnection con = new SqlConnection(connectstr);
+                con.Open();
+                con.Close();
+            }
+            stopwatch.Stop();
+            Console.WriteLine($"Time Taken : {stopwatch.ElapsedMilliseconds} ms");
+            Transaction_Eg(connectstr);
+            Console.Read();
+        }
+
+        //transaction example
+        public static void Transaction_Eg(string str)
+        {
+            using (SqlConnection con = new SqlConnection(str))
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand(); // an sql command objet is created and returned
+
+                // for transaction
+                SqlTransaction tran;
+                tran = con.BeginTransaction(); //associating a transaction obejct to the connection
+
+
+                cmd.Transaction = tran;
+                try
+                {
+                    cmd.CommandText = "Insert into Region values (150,'Infinite Zone')";
+                    cmd.ExecuteNonQuery();
+                    cmd.CommandText = "Update Region set regiondescription = 'Monsoon Region'" + "where regionid = 200";
+                    cmd.ExecuteNonQuery();
+                    tran.Commit();
+                    Console.WriteLine("Transaction Completed...."); ;
+                }
+                catch(SqlException se)
+                {
+                    Console.WriteLine("OOPS!! Something went wrong");
+                    try
+                    {
+                        tran.Rollback();
+                    }
+                    catch(Exception e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
+                }
+            }
+        }
+        public static void TransactionScope_Eg(string str)
+        {
+            TransactionOptions options = new TransactionOptions();
+            options.IsolationLevel = System.Transactions.IsolationLevel.ReadCommitted;
+
+            using (TransactionScope ts = new TransactionScope(str))
+            {
+                using(SqlConnection con = new SqlConnection(str))
+                {
+                    con.Open();
+                    using(SqlCommand cmd = new SqlCommand("insert into"))
+                }
+            }
+        }
+
+    }
+}
