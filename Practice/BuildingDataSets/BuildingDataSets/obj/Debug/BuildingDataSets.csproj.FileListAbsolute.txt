@@ -1,0 +1,7 @@
+C:\Training\dotnet\Practice\BuildingDataSets\BuildingDataSets\obj\Debug\BuildingDataSets.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\BuildingDataSets\BuildingDataSets\obj\Debug\BuildingDataSets.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\BuildingDataSets\BuildingDataSets\bin\Debug\BuildingDataSets.exe.config
+C:\Training\dotnet\Practice\BuildingDataSets\BuildingDataSets\bin\Debug\BuildingDataSets.exe
+C:\Training\dotnet\Practice\BuildingDataSets\BuildingDataSets\bin\Debug\BuildingDataSets.pdb
+C:\Training\dotnet\Practice\BuildingDataSets\BuildingDataSets\obj\Debug\BuildingDataSets.exe
+C:\Training\dotnet\Practice\BuildingDataSets\BuildingDataSets\obj\Debug\BuildingDataSets.pdb
