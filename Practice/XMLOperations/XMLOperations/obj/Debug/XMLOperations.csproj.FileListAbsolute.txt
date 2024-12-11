@@ -1,0 +1,2 @@
+C:\Training\dotnet\Practice\XMLOperations\XMLOperations\obj\Debug\XMLOperations.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\XMLOperations\XMLOperations\obj\Debug\XMLOperations.csproj.CoreCompileInputs.cache
