@@ -1,0 +1,21 @@
+SQL Metal :
+-----------
+
+Create a new project SQLMetal in ur practice and working directory
+
+Go to :
+-------
+
+Tools ---> Command Line ---> Developer Command Prompt
+
+1) cd /Windows
+
+2) cd System32
+
+3) sqlmetal.exe
+
+4) sqlmetal.exe /server:ICS-LT-GSRQ4D3 /database:Northwind /dbml:C:\Training\dotnet\Practice\SQLMetal\northwinddbml.dbml /context:NorthwindContext
+
+
+--- replace server name with ur server name
+--- replace C:\Training\dotnet\Practice\SQLMetal\northwinddbml.dbml with "ur working directory path"\northwinddbml.dbml
