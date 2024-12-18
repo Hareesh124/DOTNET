@@ -1,0 +1,14 @@
+C:\Training\dotnet\Assesment\Assesment 6\ADO\ADO\bin\Debug\ADO.exe.config
+C:\Training\dotnet\Assesment\Assesment 6\ADO\ADO\bin\Debug\ADO.exe
+C:\Training\dotnet\Assesment\Assesment 6\ADO\ADO\bin\Debug\ADO.pdb
+C:\Training\dotnet\Assesment\Assesment 6\ADO\ADO\obj\Debug\ADO.csproj.AssemblyReference.cache
+C:\Training\dotnet\Assesment\Assesment 6\ADO\ADO\obj\Debug\ADO.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Assesment\Assesment 6\ADO\ADO\obj\Debug\ADO.exe
+C:\Training\dotnet\Assesment\Assesment 6\ADO\ADO\obj\Debug\ADO.pdb
+C:\Training\dotnet\Practice\Assesment 6 prac\ADO\ADO\bin\Debug\ADO.exe.config
+C:\Training\dotnet\Practice\Assesment 6 prac\ADO\ADO\bin\Debug\ADO.exe
+C:\Training\dotnet\Practice\Assesment 6 prac\ADO\ADO\bin\Debug\ADO.pdb
+C:\Training\dotnet\Practice\Assesment 6 prac\ADO\ADO\obj\Debug\ADO.csproj.AssemblyReference.cache
+C:\Training\dotnet\Practice\Assesment 6 prac\ADO\ADO\obj\Debug\ADO.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\Practice\Assesment 6 prac\ADO\ADO\obj\Debug\ADO.exe
+C:\Training\dotnet\Practice\Assesment 6 prac\ADO\ADO\obj\Debug\ADO.pdb

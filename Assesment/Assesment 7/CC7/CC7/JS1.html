@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiplication and Division</title>
+</head>
+<body>
+    <h1>Multiplication and Division</h1>
+
+    <label for="num1">Enter first number:</label>
+    <input type="number" id="num1"><br><br>
+
+    <label for="num2">Enter second number:</label>
+    <input type="number" id="num2"><br><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <p id="result"></p>
+    <br>
+    <script>
+    function calculate() {
+      const num1 = parseFloat(document.getElementById("num1").value);
+      const num2 = parseFloat(document.getElementById("num2").value);
+      const multiplication = num1 * num2;
+      const division = num2 !== 0 ? num1 / num2 : "Cannot divide by zero";
+
+        document.getElementById("result").innerHTML = `Multiplication: ${num1} * ${num2} = ${multiplication}
+        <br>Division: ${num1} / ${num2} = ${division}`;
+    }
+    </script>
+</body>
+</html>
