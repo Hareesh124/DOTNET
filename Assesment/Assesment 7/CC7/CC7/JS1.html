@@ -1,31 +1,61 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Multiplication and Division</title>
+    <title>Multiplication and Division Calculator</title>
 </head>
 <body>
-    <h1>Multiplication and Division</h1>
+    <h1>Multiplication and Division Calculator</h1>
 
-    <label for="num1">Enter first number:</label>
-    <input type="number" id="num1"><br><br>
+    <div>
+        <label>Enter First Number:</label>
+        <input type="number" id="num1" placeholder="Enter a number" required>
+    </div>
 
-    <label for="num2">Enter second number:</label>
-    <input type="number" id="num2"><br><br>
+    <div>
+        <label>Enter Second Number:</label>
+        <input type="number" id="num2" placeholder="Enter a number" required>
+    </div>
 
-    <button onclick="calculate()">Calculate</button>
+    <div>
+        <button onclick="multiply()">Multiply</button>
+        <button onclick="divide()">Divide</button>
+    </div>
 
-    <p id="result"></p>
-    <br>
+    <div id="result"></div>
+
     <script>
-    function calculate() {
-      const num1 = parseFloat(document.getElementById("num1").value);
-      const num2 = parseFloat(document.getElementById("num2").value);
-      const multiplication = num1 * num2;
-      const division = num2 !== 0 ? num1 / num2 : "Cannot divide by zero";
+        // Function to multiply the two numbers
+        function multiply() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
 
-        document.getElementById("result").innerHTML = `Multiplication: ${num1} * ${num2} = ${multiplication}
-        <br>Division: ${num1} / ${num2} = ${division}`;
-    }
+            if (isNaN(num1) || isNaN(num2)) {
+                document.getElementById("result").textContent = "Please enter valid numbers.";
+                return;
+            }
+
+            const result = num1 * num2;
+            document.getElementById("result").textContent = "Multiplication Result: " + result;
+        }
+
+        // Function to divide the two numbers
+        function divide() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+
+            if (isNaN(num1) || isNaN(num2)) {
+                document.getElementById("result").textContent = "Please enter valid numbers.";
+                return;
+            }
+
+            if (num2 === 0) {
+                document.getElementById("result").textContent = "Error: Division by zero is not allowed.";
+                return;
+            }
+
+            const result = num1 / num2;
+            document.getElementById("result").textContent = "Division Result: " + result;
+        }
     </script>
 </body>
 </html>
