@@ -109,7 +109,7 @@ namespace TrainReservationSystem.Services
             // Display bookings with formatted date
             foreach (var booking in bookings)
             {
-                Console.WriteLine($"Booking ID: {booking.BookingId}, Train Number: {booking.TrainNumber}, Journey Date: {booking.JourneyDate.ToString("yyyy-MM-dd HH:mm:ss")}");
+                Console.WriteLine($"Booking ID: {booking.BookingId}, Train Number: {booking.TrainNumber}, Journey Date: {booking.JourneyDate.ToString("yyyy-MM-dd")}");
             }
 
             return bookings;

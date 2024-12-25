@@ -4,8 +4,8 @@ namespace TrainReservationSystem.Models
 {
     public class Train
     {
-        //private int flag = 0; // Keep the field private
-        //public int Flag // Public property to access flag
+        //private int flag = 0;
+        //public int Flag
         //{
         //    get { return flag; }
         //    set { flag = value; }
@@ -16,6 +16,7 @@ namespace TrainReservationSystem.Models
         public string Destination { get; set; }
         public decimal AcTicketPrice { get; set; }
         public decimal GeneralTicketPrice { get; set; }
+        public Boolean isActive { get; set; }
     }
 
 

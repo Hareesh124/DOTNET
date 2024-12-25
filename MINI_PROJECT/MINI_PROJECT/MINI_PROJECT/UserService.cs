@@ -47,7 +47,7 @@ namespace TrainReservationSystem.Services
                 command.Parameters.AddWithValue("@Username", username);
                 command.Parameters.AddWithValue("@Password", password);
                 command.Parameters.AddWithValue("@IsAdmin", isAdmin);
-
+                
                 command.ExecuteNonQuery();
            
         }

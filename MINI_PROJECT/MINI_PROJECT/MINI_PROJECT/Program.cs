@@ -20,7 +20,8 @@ namespace TrainReservationSystem
             {
                 Console.WriteLine();
                 Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
-                Console.WriteLine("Welcome to Indian Railways [server may be down anytime book ASAP :) ]");
+                Console.WriteLine("***   Welcome to Indian Railways [server may go down anytime.......Book ASAP :) ]   ***");
+                Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                 Console.WriteLine("If you are a new user, please register. If you have already registered, please log in.");
                 Console.WriteLine("1. Login");
                 Console.WriteLine("2. Register");
@@ -93,13 +94,16 @@ namespace TrainReservationSystem
             {
                 Console.WriteLine();
                 Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
-                Console.WriteLine("1. View trains between two stations");
-                Console.WriteLine("2. View train details");
-                Console.WriteLine("3. Add train");
-                Console.WriteLine("4. Add coach to train");
+                Console.WriteLine("1. View trains between stations");
+                Console.WriteLine("2. View the train details");
+                Console.WriteLine("3. Add a new train");
+                Console.WriteLine("4. Add coach to existing train");
                 Console.WriteLine("5. View all bookings");
                 Console.WriteLine("6. Cancel booking");
-                Console.WriteLine("7. Logout");
+                Console.WriteLine("7. Delete train");
+                Console.WriteLine("8. Modify train");
+                Console.WriteLine("9. View All trains");
+                Console.WriteLine("10. Logout");
                 Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                 Console.WriteLine();
 
@@ -125,7 +129,9 @@ namespace TrainReservationSystem
                     {
                         foreach (var train in trains)
                         {
+                            Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                             Console.WriteLine($"Train Number: {train.TrainNumber}, Name: {train.TrainName}, Source: {train.Source}, Destination: {train.Destination}, AC Price: {train.AcTicketPrice}, General Price: {train.GeneralTicketPrice}");
+                            Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                         }
                     }
                     //foreach (var train in trains)
@@ -149,7 +155,9 @@ namespace TrainReservationSystem
                     var train = trainService.GetTrainDetails(identifier);
                     if (train != null)
                     {
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                         Console.WriteLine($"Train Number: {train.TrainNumber}, Name: {train.TrainName}, Source: {train.Source}, Destination: {train.Destination}, AC Price: {train.AcTicketPrice}, General Price: {train.GeneralTicketPrice}");
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                     }
                     else
                     {
@@ -209,7 +217,9 @@ namespace TrainReservationSystem
                     var bookings = bookingService.GetAllBookings();
                     foreach (var booking in bookings)
                     {
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                         Console.WriteLine($"Booking ID: {booking.BookingId}, Train Number: {booking.TrainNumber}, Coach ID: {booking.CoachId}, Passenger Name: {booking.PassengerName}, Age: {booking.PassengerAge}, Booking Date: {booking.BookingDate}, Journey Date: {booking.JourneyDate}");
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                     }
                 }
                 else if (choice == "6")
@@ -227,6 +237,44 @@ namespace TrainReservationSystem
                 }
                 else if (choice == "7")
                 {
+                    Console.Write("Enter the Train number you want to delete: ");
+                    var trainId = Console.ReadLine();
+                    try
+                    {
+                       trainService.DeleteTrain(trainId);
+
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error deleting: {ex.Message}");
+                    }
+                }
+                else if (choice == "8")
+                {
+                    Console.Write("Enter the Train number to modify and make it Inactive: ");
+                    var trainId = Console.ReadLine();
+                    try
+                    {
+                        trainService.UpdateTrain(trainId);
+
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Error in modifying: {ex.Message}");
+                    }
+                }
+                else if (choice == "9")
+                {
+                    var trains = trainService.GetAllTrainDetails();
+                    foreach (var tr in trains)
+                    {
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
+                        Console.WriteLine($"TrainNumber: {tr.TrainNumber}, Train Name: {tr.TrainName}, Sources: {tr.Source}, Destination: {tr.Destination}, AcTicketPrice:{tr.AcTicketPrice}, GeneralTicketPrice: {tr.GeneralTicketPrice}, isActive:{tr.isActive} ");
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
+                    }
+                }
+                else if (choice == "10")
+                {
                     break;
                 }
                 else
@@ -242,12 +290,13 @@ namespace TrainReservationSystem
             {
                 Console.WriteLine();
                 Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
-                Console.WriteLine("1. View trains between two stations");
-                Console.WriteLine("2. View train details");
-                Console.WriteLine("3. Book ticket");
-                Console.WriteLine("4. Cancel ticket");
+                Console.WriteLine("1. View trains between stations");
+                Console.WriteLine("2. View the train details");
+                Console.WriteLine("3. Book Tickets");
+                Console.WriteLine("4. Cancel Tickets");
                 Console.WriteLine("5. View your bookings");
-                Console.WriteLine("6. Logout");
+                Console.WriteLine("6. View all trains");
+                Console.WriteLine("7. Logout");
                 Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                 Console.WriteLine();
 
@@ -273,7 +322,10 @@ namespace TrainReservationSystem
                     {
                         foreach (var train in trains)
                         {
+                            Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                             Console.WriteLine($"Train Number: {train.TrainNumber}, Name: {train.TrainName}, Source: {train.Source}, Destination: {train.Destination}, AC Price: {train.AcTicketPrice}, General Price: {train.GeneralTicketPrice}");
+                            Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
+
                         }
                     }
                     //foreach (var train in trains)
@@ -297,7 +349,9 @@ namespace TrainReservationSystem
                     var train = trainService.GetTrainDetails(identifier);
                     if (train != null)
                     {
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                         Console.WriteLine($"Train Number: {train.TrainNumber}, Name: {train.TrainName}, Source: {train.Source}, Destination: {train.Destination}, AC Price: {train.AcTicketPrice}, General Price: {train.GeneralTicketPrice}");
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                     }
                     else
                     {
@@ -308,6 +362,17 @@ namespace TrainReservationSystem
                 {
                     Console.Write("Enter train number: ");
                     var trainNumber = Console.ReadLine();
+                    var train = trainService.GetTrainDetails(trainNumber);
+                    if (train == null)
+                    {
+                        Console.WriteLine("Train not found.");
+                        return;
+                    }
+                    if (!train.isActive)
+                    {
+                        Console.WriteLine("Sorry the Train is Inactive and not running currently!!!");
+                        return;
+                    }
                     Console.Write("Enter number of tickets to book: ");
                     var ticketCount = int.Parse(Console.ReadLine());
 
@@ -319,14 +384,6 @@ namespace TrainReservationSystem
                         var passengerAge = int.Parse(Console.ReadLine());
                         Console.Write("Enter coach type (AC/General): ");
                         var coachType = Console.ReadLine();
-
-                        var train = trainService.GetTrainDetails(trainNumber);
-                        if (train == null)
-                        {
-                            Console.WriteLine("Train not found.");
-                            return;
-                        }
-
                         var ticketPrice = coachType.Equals("AC", StringComparison.OrdinalIgnoreCase) ? train.AcTicketPrice : train.GeneralTicketPrice;
                         decimal tp = ticketPrice;
                         var coach = coachService.GetCoachByTrainNumberAndType(trainNumber, coachType);
@@ -350,14 +407,18 @@ namespace TrainReservationSystem
                             JourneyDate = journeyDate,
                             fare = tp
                         };
-                        flag = bookingService.BookTicket(booking,flag);
+                        flag = bookingService.BookTicket(booking, flag);
                         coachService.UpdateAvailableSeats(coach.CoachId, coach.AvailableSeats - 1);
-                        if(flag == 0)
+                        if (flag == 0)
                         {
                             //Console.WriteLine(flag);
                             Console.WriteLine($"Ticket booked successfully. Price: {ticketPrice}");
                         }
-                 
+                        
+                        else
+                        {
+                            Console.WriteLine("Error unable to book tickets!!! Contact admin immediately");
+                        }
                     }
                 }
                 else if (choice == "4")
@@ -379,10 +440,22 @@ namespace TrainReservationSystem
                     var bookings = bookingService.GetBookingsByUser(user.UserId);
                     foreach (var booking in bookings)
                     {
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                         Console.WriteLine($"Booking ID: {booking.BookingId}, Train Number: {booking.TrainNumber}, Coach ID: {booking.CoachId}, Passenger Name: {booking.PassengerName}, Age: {booking.PassengerAge}, Booking Date: {booking.BookingDate.ToString("yyyy-MM-dd HH:mm:ss")}, Journey Date: {booking.JourneyDate.ToString("yyyy-MM-dd HH:mm:ss")}, Fare: {booking.fare}");
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
                     }
                 }
                 else if (choice == "6")
+                {
+                    var trains = trainService.GetAllTrainDetails();
+                    foreach (var tr in trains)
+                    {
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
+                        Console.WriteLine($"TrainNumber: {tr.TrainNumber}, Train Name: {tr.TrainName}, Sources: {tr.Source}, Destination: {tr.Destination}, AcTicketPrice:{tr.AcTicketPrice}, GeneralTicketPrice: {tr.GeneralTicketPrice}, isActive:{tr.isActive} ");
+                        Console.WriteLine("----------------------------------------------------------------------------------------------------------------");
+                    }
+                }
+                else if (choice == "7")
                 {
                     break;
                 }

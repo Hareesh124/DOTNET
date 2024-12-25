@@ -60,6 +60,10 @@ DROP COLUMN Fare;
 ALTER TABLE Bookings
 ADD Fare DECIMAL(10, 2) NOT NULL DEFAULT 0.00;
 
+ALTER TABLE Trains
+ADD IsActive BIT NOT NULL DEFAULT 1;
+
+
 select * from Users
 select * from Trains
 select * from Coaches

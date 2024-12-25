@@ -44,6 +44,36 @@ namespace TrainReservationSystem.Services
             return trains;
         }
 
+        public List<Train> GetAllTrainDetails()
+        {
+            var trains = new List<Train>();
+
+            using (var connection = new SqlConnection(constr))
+            {
+                connection.Open();
+                var command = new SqlCommand("SELECT * FROM Trains", connection);
+
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read()) // Iterate through all rows in the result set
+                    {
+                        trains.Add(new Train
+                        {
+                            TrainNumber = reader["TrainNumber"].ToString(),
+                            TrainName = reader["TrainName"].ToString(),
+                            Source = reader["Sources"].ToString(),
+                            Destination = reader["Destination"].ToString(),
+                            AcTicketPrice = (decimal)reader["AcTicketPrice"],
+                            GeneralTicketPrice = (decimal)reader["GeneralTicketPrice"],
+                            isActive = (bool)reader["IsActive"]
+                        });
+                    }
+                }
+            }
+
+            return trains;
+        }
+
         public Train GetTrainDetails(string identifier)
         {
             using (var connection = new SqlConnection(constr))
@@ -63,12 +93,80 @@ namespace TrainReservationSystem.Services
                             Source = (string)reader["Sources"],
                             Destination = (string)reader["Destination"],
                             AcTicketPrice = (decimal)reader["AcTicketPrice"],
-                            GeneralTicketPrice = (decimal)reader["GeneralTicketPrice"]
+                            GeneralTicketPrice = (decimal)reader["GeneralTicketPrice"],
+                            isActive = (Boolean)reader["isActive"]
                         };
                     }
                 }
             }
             return null;
+        }
+
+        public void DeleteTrain(string identifier)
+        {
+            try
+            {
+                using (var connection = new SqlConnection(constr))
+                {
+                    connection.Open();
+                    var command = new SqlCommand("DELETE FROM Trains WHERE TrainNumber = @Trainnumber", connection);
+                    command.Parameters.AddWithValue("@Trainnumber", identifier);
+
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected == 0)
+                    {
+                        Console.WriteLine("Train does not exist");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Train {identifier} deleted successfully");
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine($"SQL Error: {ex.Message}");
+                throw;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                throw;
+            }
+        }
+        public void UpdateTrain(string identifier)
+        {
+            try
+            {
+                using (var connection = new SqlConnection(constr))
+                {
+                    connection.Open();
+                    var command = new SqlCommand("UPDATE Trains SET IsActive = 0 WHERE TrainNumber = @Trainnumber", connection);
+                    command.Parameters.AddWithValue("@Trainnumber", identifier);
+
+                    int rowsAffected = command.ExecuteNonQuery();
+
+                    if (rowsAffected == 0)
+                    {
+                        Console.WriteLine("Train does not exist");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Train {identifier} modified and set to inactive successfully");
+                    }
+                }
+            }
+            catch (SqlException ex)
+            {
+                Console.WriteLine($"SQL Error: {ex.Message}");
+                throw;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                throw;
+            }
         }
 
         public void AddTrain(Train train)

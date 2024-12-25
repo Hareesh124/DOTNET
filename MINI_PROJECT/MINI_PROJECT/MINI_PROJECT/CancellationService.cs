@@ -19,7 +19,9 @@ namespace TrainReservationSystem.Services
             //Console.WriteLine(booking);
             if (booking == null)
             {
-                throw new Exception("Booking not found.");
+                Console.WriteLine("Invalid Booking ID");
+                //throw new Exception("Booking not found.");
+                return;
             }
 
             // Check if the journey date is in the past

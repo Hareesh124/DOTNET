@@ -19,3 +19,10 @@ C:\Training\dotnet\Miniproject\MINI_PROJECT\MINI_PROJECT\obj\Debug\MINI_PROJECT.
 C:\Training\dotnet\Miniproject\MINI_PROJECT\MINI_PROJECT\obj\Debug\MINI_PROJECT.csproj.CoreCompileInputs.cache
 C:\Training\dotnet\Miniproject\MINI_PROJECT\MINI_PROJECT\obj\Debug\MINI_PROJECT.exe
 C:\Training\dotnet\Miniproject\MINI_PROJECT\MINI_PROJECT\obj\Debug\MINI_PROJECT.pdb
+C:\Training\dotnet\MINI_PROJECT\MINI_PROJECT\MINI_PROJECT\bin\Debug\MINI_PROJECT.exe.config
+C:\Training\dotnet\MINI_PROJECT\MINI_PROJECT\MINI_PROJECT\bin\Debug\MINI_PROJECT.exe
+C:\Training\dotnet\MINI_PROJECT\MINI_PROJECT\MINI_PROJECT\bin\Debug\MINI_PROJECT.pdb
+C:\Training\dotnet\MINI_PROJECT\MINI_PROJECT\MINI_PROJECT\obj\Debug\MINI_PROJECT.csproj.AssemblyReference.cache
+C:\Training\dotnet\MINI_PROJECT\MINI_PROJECT\MINI_PROJECT\obj\Debug\MINI_PROJECT.csproj.CoreCompileInputs.cache
+C:\Training\dotnet\MINI_PROJECT\MINI_PROJECT\MINI_PROJECT\obj\Debug\MINI_PROJECT.exe
+C:\Training\dotnet\MINI_PROJECT\MINI_PROJECT\MINI_PROJECT\obj\Debug\MINI_PROJECT.pdb
