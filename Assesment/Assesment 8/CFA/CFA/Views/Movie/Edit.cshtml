@@ -1,0 +1,17 @@
+﻿@model CFA.Models.Movie
+
+<h2>Edit Movie</h2>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="Moviename">Movie Name</label>
+        <input type="text" class="form-control" id="Moviename" name="Moviename" value="@Model.Moviename" required />
+    </div>
+
+    <div class="form-group">
+        <label for="DateofRelease">Date of Release</label>
+        <input type="date" class="form-control" id="DateofRelease" name="DateofRelease" value="@Model.DateofRelease.ToString("MM-dd-yyyy")" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Movie</button>
+</form>

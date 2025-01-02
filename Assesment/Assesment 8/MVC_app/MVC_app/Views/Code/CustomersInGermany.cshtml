@@ -1,0 +1,25 @@
+﻿@model IEnumerable<MVC_app.Models.Customer>
+
+<h2>Customers in Germany</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer ID</th>
+            <th>Company Name</th>
+            <th>Contact Name</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cust in Model)
+        {
+            <tr>
+                <td>@cust.CustomerID</td>
+                <td>@cust.CompanyName</td>
+                <td>@cust.ContactName</td>
+                <td>@cust.Country</td>
+            </tr>
+        }
+    </tbody>
+</table>
