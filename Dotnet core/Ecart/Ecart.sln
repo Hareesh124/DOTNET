@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ecart", "Ecart\Ecart.csproj", "{DC7DE90A-8CC9-4D7E-A1AB-4A087AF10135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7DE90A-8CC9-4D7E-A1AB-4A087AF10135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7DE90A-8CC9-4D7E-A1AB-4A087AF10135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7DE90A-8CC9-4D7E-A1AB-4A087AF10135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7DE90A-8CC9-4D7E-A1AB-4A087AF10135}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73FAF559-736C-4222-9927-C49090E85305}
+	EndGlobalSection
+EndGlobal
